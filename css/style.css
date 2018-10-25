@@ -4,16 +4,49 @@ html {
 
 body {
     height: 100%;
+    background-color: #264d73;
     
 }
 a {
     text-decoration: none;
+    color:white;
 }
-
-.main {
+.menu{
+    background-color: white;
+    height:200px;
+}
+.main,.aboutMain {
     height: 100%;
+    background-color: #a1c0de;
+}
+.space{
+    width:30%;
 }
 .social-image{
     width: 30px;
     margin: 15px;
+}
+.header{
+     display:flex;
+ justify-content:center;
+ 
+ 
+}
+.navbar{
+ display:flex;
+ justify-content:space-around;
+}
+.footer{
+     display:flex;
+ justify-content:flex-start;
+}
+.thumbnail{
+    width:400px;
+}
+.thumbnail-image{
+    max-width:100%;
+}
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
 }
